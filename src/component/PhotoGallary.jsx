@@ -34,7 +34,7 @@ const PhotoGallary = () => {
   }, []);
 
   return (
-    <Watermark content={"ENGELL"}>
+    // <Watermark content={"ENGELL"}>
       <div className="w-full py-10 bg-blue-300 " id="gallery">
         <p className="text-center  text-2xl font-semibold mb-6">
           Photo Gallery
@@ -52,7 +52,7 @@ const PhotoGallary = () => {
           ))}
         </div>
       </div>
-    </Watermark>
+    // </Watermark>
   );
 };
 

@@ -70,7 +70,7 @@ const levels = [
 
 const JapaneseJLPT = () => {
   return (
-    <Watermark content={"ENGELL"}>
+    // <Watermark content={"ENGELL"}>
       <div className="w-full bg-blue-300 py-20 px-4" id="japanese">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block mb-3 text-xs px-4 py-1 rounded-full bg-red-100 text-red-600 font-medium">
@@ -150,8 +150,8 @@ const JapaneseJLPT = () => {
           ))}
         </div>
       </div>
-      {/* Header */}
-    </Watermark>
+     
+    // </Watermark>
   );
 };
 
