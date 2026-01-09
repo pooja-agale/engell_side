@@ -4,30 +4,36 @@ import { Watermark } from "antd";
 
 const faculty = [
   {
-    name: "Prof. Sunita Kulkarni",
-    role: "German Language Expert",
-    experience: "18+ years of experience",
-    education: "M.A. German, Goethe-Zertifikat C2",
-    note: "Specialized in Goethe Institute exam preparation",
+    name: "Dr. Aparna Sahasrabudhe",
+    role: "Director & Senior Faculty",
+    experience: "25+ years of teaching experience",
+    education:
+      "Ph.D. (SPPU), M.A. German (University of Pune), B.A. German, GDS Goethe-Institut, NET (UGC), Advanced Diploma in Japanese, JLPT N2",
+    note:
+      "Advanced teacher training in India & Germany. Paper presentations at national and international conferences.",
     image: "/photo(6).jpeg",
   },
   {
-    name: "Prof. Takeshi Yamamoto",
-    role: "Japanese Language Expert",
-    experience: "15+ years of experience",
-    education: "M.A. Japanese Studies, JLPT N1 Certified",
-    note: "Native speaker with expertise in JLPT preparation",
+    name: "Ashwini Mahajan",
+    role: "Faculty Member",
+    experience: "20+ years of teaching experience",
+    education:
+      "B.Sc., B2 Goethe Institute, JLPT N2, Teacher’s Training Program in Japan, B2 Language Course in Germany",
+    note:
+      "Extensive international training in Germany and Japan for language teaching.",
     image: "/photo(7).jpeg",
   },
   {
-    name: "Prof. Anjali Deshpande",
-    role: "Senior Language Instructor",
-    experience: "12+ years of experience",
-    education: "M.A. Linguistics, German B2 & Japanese N2",
-    note: "Expert in teaching both German and Japanese",
+    name: "Aarti Bapat",
+    role: "Faculty Member",
+    experience: "5+ years of teaching experience",
+    education: "B.Com., B2 ÖSD Certified",
+    note:
+      "Specialized in German language training with a strong academic background.",
     image: "/photo(9).jpeg",
   },
 ];
+
 
 const Faculty = () => {
   return (
