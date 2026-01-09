@@ -39,7 +39,7 @@ const faculty = [
 
 const Faculty = () => {
   return (
-    // <Watermark  content={"ENGELL"}>
+     <Watermark  content={"ENGELL"}>
       <div
         className="w-full bg-blue-300 py-20 px-4"
        
@@ -104,7 +104,7 @@ const Faculty = () => {
           ))}
         </div>
       </div>
-    // </Watermark>
+    </Watermark>
   );
 };
 

@@ -49,7 +49,7 @@ const goals = [
 
 const GoalsSection = () => {
   return (
-    // <Watermark content={"ENGELL"}>
+     <Watermark content={"ENGELL"}>
       <div className="bg-blue-300 py-16 px-4" id="goals">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-orange-500 uppercase text-sm font-semibold">
@@ -97,7 +97,7 @@ const GoalsSection = () => {
           </div>
         </div>
       </div>
-    // </Watermark>
+     </Watermark>
   );
 };
 

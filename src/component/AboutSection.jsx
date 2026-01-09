@@ -6,7 +6,7 @@ import { Watermark } from "antd";
 
 const AboutSection = () => {
   return (
-    // <Watermark content={"ENGELL"}>
+    <Watermark content={"ENGELL"}>
       <div className="w-full bg-blue-300 py-16 px-4" id="about">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Content */}
@@ -84,7 +84,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    // </Watermark>
+     </Watermark>
   );
 };
 

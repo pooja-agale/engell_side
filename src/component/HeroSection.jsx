@@ -7,7 +7,7 @@ import { Watermark } from "antd";
 
 const HeroSection = () => {
   return (
-    // <Watermark content={"ENGELL"}>
+    <Watermark content={"ENGELL"}>
       <div
         id="hero"
         className="relative min-h-screen w-full bg-blue-300 overflow-hidden flex items-center justify-center px-4"
@@ -101,7 +101,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    // </Watermark>
+     </Watermark>
   );
 };
 
