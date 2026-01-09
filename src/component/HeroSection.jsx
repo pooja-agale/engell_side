@@ -36,7 +36,7 @@ const HeroSection = () => {
           </h1>
 
           {/* Description */}
-          <p className="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-gray-500">
+          <p className="mt-4 max-w-2xl mx-auto text-sm md:text-lg text-bol">
             Unlock global opportunities with ENGELL Language Institute.
             Expert-led courses from beginner to advanced levels with
             internationally recognized certifications.

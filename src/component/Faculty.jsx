@@ -11,7 +11,9 @@ const faculty = [
       "Ph.D. (SPPU), M.A. German (University of Pune), B.A. German, GDS Goethe-Institut, NET (UGC), Advanced Diploma in Japanese, JLPT N2",
     note:
       "Advanced teacher training in India & Germany. Paper presentations at national and international conferences.",
-    image: "/photo(6).jpeg",
+    
+    image: "/photo(7).jpeg",
+
   },
   {
     name: "Ashwini Mahajan",
@@ -21,7 +23,7 @@ const faculty = [
       "B.Sc., B2 Goethe Institute, JLPT N2, Teacher’s Training Program in Japan, B2 Language Course in Germany",
     note:
       "Extensive international training in Germany and Japan for language teaching.",
-    image: "/photo(7).jpeg",
+    image: "/photo(6).jpeg",
   },
   {
     name: "Aarti Bapat",

@@ -81,11 +81,8 @@ const levels = [
 const GermanLevels = () => {
   return (
     <Watermark content={"ENGELL"}>
-      <div
-        className="w-full bg-blue-300 py-16 px-4"
+      <div className="w-full bg-blue-300 py-16 px-4" id="german">
         
-        id="german"
-      >
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {levels.map((item, index) => (
             <div
@@ -127,6 +124,15 @@ const GermanLevels = () => {
             </div>
           ))}
         </div>
+
+        {/* 🔥 Bottom Center Text */}
+        <div className="mt-12 text-center">
+          
+          <p className="text-md text-gray-600 mt-1">
+            preparation for international examination in German and Japanese 
+          </p>
+        </div>
+
       </div>
     </Watermark>
   );
