@@ -36,7 +36,7 @@ const PhotoGallary = () => {
   return (
      <Watermark content={"ENGELL"}>
       <div className="w-full py-10 bg-blue-300 " id="gallery">
-        <p className="text-center  text-2xl font-semibold mb-6">
+        <p className="text-center  text-2xl md:text-4xl font-semibold mb-12">
           Photo Gallery
         </p>
 
@@ -46,7 +46,7 @@ const PhotoGallary = () => {
               key={index}
               src={src}
               alt="gallery"
-              className="w-60 h-40 sm:w-72 sm:h-48 md:w-80 md:h-52
+              className="w-60 h-40 sm:w-72 sm:h-48 md:w-80 md:h-72
                        object-cover rounded-xl flex-shrink-0"
             />
           ))}

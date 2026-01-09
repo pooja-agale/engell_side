@@ -10,3 +10,26 @@
   background-size: 150px; /* size adjust karo */
   
 }
+.faculty-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.faculty-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.faculty-scroll::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 20px;
+}
+
+/* Hide scrollbar but keep scrolling */
+.faculty-scroll {
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* IE & Edge */
+}
+
+.faculty-scroll::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari */
+}
+

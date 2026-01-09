@@ -21,6 +21,31 @@ const videos = [
     tag: "German Language",
     video: "/Video(3).mp4",
   },
+  {
+    title: "Learning German Opened New Doors",
+    name: "Amit Sharma",
+    tag: "German Language",
+    video: "/Video(4).mp4",
+  },
+  {
+    title: "Japanese to Job in Japan",
+    name: "Neha Patil",
+    tag: "Japanese Language",
+    video: "/Video(5).mp4",
+  },
+  {
+    title: "Japanese to Job in Japan",
+    name: "Neha Patil",
+    tag: "Japanese Language",
+    video: "/Video(6).mp4",
+  },
+  
+  {
+    title: "Japanese to Job in Japan",
+    name: "Neha Patil",
+    tag: "Japanese Language",
+    video: "/Video(8).mp4",
+  },
 ];
 
 const VideoTestimonials = () => {
@@ -28,44 +53,45 @@ const VideoTestimonials = () => {
 
   return (
     <Watermark content={"ENGELL"}>
-      <div
-        className="w-full bg-blue-300 py-20 px-4"
-        content={"ENGELL"}
-        id="videos"
-      >
+      <div className="w-full bg-blue-300 py-20" id="videos">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-14 px-4">
           <span className="inline-flex text-xs bg-orange-100 text-orange-600 px-4 py-1 rounded-full mb-4">
             Video Testimonials
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold">
             Student Success Stories
           </h2>
-          <p className="mt-4 text-gray-500">
+          <p className="mt-4 text-gray-600">
             Hear directly from our students about their learning experience.
           </p>
         </div>
 
-        {/* Cards */}
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {videos.map((item, index) => (
-            <VideoCard
-              key={index}
-              item={item}
-              isActive={activeIndex === index}
-              onPlay={() => setActiveIndex(index)}
-            />
-          ))}
+        {/* FULL WIDTH HORIZONTAL SLIDER */}
+        <div className="w-full overflow-hidden">
+          <div className="flex w-full gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory faculty-scroll px-4">
+            {videos.map((item, index) => (
+              <div
+                key={index}
+                className="min-w-[280px] sm:min-w-[360px] md:min-w-[420px] snap-start"
+              >
+                <VideoCard
+                  item={item}
+                  isActive={activeIndex === index}
+                  onPlay={() => setActiveIndex(index)}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-     </Watermark>
+    </Watermark>
   );
 };
 
 const VideoCard = ({ item, isActive, onPlay }) => {
   const videoRef = useRef(null);
 
-  // 🔥 Jab dusra video play ho → ye wala auto pause
   useEffect(() => {
     if (!isActive && videoRef.current) {
       videoRef.current.pause();
@@ -74,17 +100,15 @@ const VideoCard = ({ item, isActive, onPlay }) => {
   }, [isActive]);
 
   const handlePlay = () => {
-    onPlay(); // pehle baaki videos band
-
+    onPlay();
     const video = videoRef.current;
-    video.muted = false; // 🔊 SOUND FIX
+    video.muted = false;
     video.volume = 1;
     video.play();
   };
 
   return (
     <div className="bg-white rounded-2xl border shadow-sm overflow-hidden">
-      {/* VIDEO */}
       <div className="relative h-48 md:h-96 bg-black">
         <video
           ref={videoRef}
@@ -97,7 +121,7 @@ const VideoCard = ({ item, isActive, onPlay }) => {
         {!isActive && (
           <button
             onClick={handlePlay}
-            className="absolute inset-0 flex items-center justify-center"
+            className="absolute inset-0 flex items-center justify-center bg-black/20"
           >
             <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow">
               <Play className="w-6 h-6 text-orange-500 ml-1" />
@@ -106,7 +130,6 @@ const VideoCard = ({ item, isActive, onPlay }) => {
         )}
       </div>
 
-      {/* Content */}
       <div className="p-5">
         <h3 className="font-semibold text-gray-900">{item.title}</h3>
         <p className="text-sm text-gray-500 mb-3">{item.name}</p>
