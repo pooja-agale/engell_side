@@ -1,58 +1,52 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Play } from "lucide-react";
-import { Watermark } from "antd";
+
 
 const videos = [
   {
-    title: "Journey from Zero to JLPT N3",
-    name: "Riya Patel",
-    tag: "Japanese Language",
+    title: "Experience interactive Foreign Language learning",
+    name: "Prachi Bhong",
+    tag: "German Language",
     video: "/Video(1).mp4",
   },
   {
-    title: "How German Changed My Career",
-    name: "Saurabh Joshi",
+    title: "From language learning to higher studies in Germany",
+    name: "Abhaya Arak",
     tag: "German Language",
     video: "/Video(2).mp4",
   },
   {
-    title: "From Beginner to B2 in One Year",
-    name: "Prachi Kulkarni",
+    title: "Unlocking doors for future",
+    name: "Pallavi Deshpande",
     tag: "German Language",
     video: "/Video(3).mp4",
   },
   {
-    title: "Learning German Opened New Doors",
-    name: "Amit Sharma",
+    title: "German as a career option",
+    name: "Meera Limaye",
     tag: "German Language",
     video: "/Video(4).mp4",
   },
   {
-    title: "Japanese to Job in Japan",
-    name: "Neha Patil",
-    tag: "Japanese Language",
+    title: "German language skills: a career advantage",
+    name: "Sarthak Nene",
+    tag: "German Language",
     video: "/Video(5).mp4",
   },
   {
-    title: "Japanese to Job in Japan",
-    name: "Neha Patil",
-    tag: "Japanese Language",
+    title: "Language skills: real results",
+    name: "Ambarish Kulkarni",
+    tag: "German Language",
     video: "/Video(6).mp4",
   },
-  
-  {
-    title: "Japanese to Job in Japan",
-    name: "Neha Patil",
-    tag: "Japanese Language",
-    video: "/Video(8).mp4",
-  },
 ];
+
 
 const VideoTestimonials = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <Watermark content={"ENGELL"}>
+    
       <div className="w-full bg-blue-300 py-20" id="videos">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 px-4">
@@ -85,7 +79,7 @@ const VideoTestimonials = () => {
           </div>
         </div>
       </div>
-    </Watermark>
+  
   );
 };
 

@@ -7,7 +7,7 @@ import { Watermark } from "antd";
 
 const ContactSection = () => {
   return (
-     <Watermark content={"ENGELL"}>
+     
       <div className="bg-blue-300 py-16 px-4" id="contact">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -35,8 +35,7 @@ const ContactSection = () => {
                   <div>
                     <p className="font-semibold">Address</p>
                     <p className="text-sm text-gray-500">
-                      7, Mohor, Ranapagar, Opp. Hotel VITS, Station Road,
-                      Aurangabad - 431 005
+                      Plot no. 7, Raj Nagar, Station Road, opp. Goldie Cinema, Chhatrapati Sambhajinagar 431005
                     </p>
                   </div>
                 </div>
@@ -159,7 +158,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </Watermark>
+  
   );
 };
 

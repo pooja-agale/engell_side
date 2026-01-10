@@ -1,29 +1,31 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
-import { Watermark } from "antd";
+
 
 const levels = [
   {
     level: "N5",
-    tag: "Basic",
-    description: "The ability to understand some basic Japanese.",
+    tag: "Beginner",
+    description:
+      "Understands some basic Japanese, common phrases, simple sentences, and slow conversations on familiar topics.",
     points: [
-      "Hiragana & Katakana",
-      "Basic grammar",
-      "Elementary vocabulary",
-      "Simple conversations",
+      "Basic Kana (Hiragana & Katakana)",
+      "Around 80 Kanji",
+      "About 600 words",
+      "Simple sentences & slow conversations",
     ],
     cert: "JLPT N5 Certificate",
   },
   {
     level: "N4",
-    tag: "Elementary",
-    description: "The ability to understand basic Japanese.",
+    tag: "Advanced Beginner",
+    description:
+      "Understands basic Japanese, can read simple sentences, and handle slow conversations on daily topics.",
     points: [
-      "Basic Kanji (300)",
-      "Everyday expressions",
-      "Simple reading",
-      "Basic listening",
+      "Around 230 Kanji",
+      "About 1,250 words",
+      "Simple reading ability",
+      "Daily life conversations",
     ],
     cert: "JLPT N4 Certificate",
   },
@@ -31,46 +33,47 @@ const levels = [
     level: "N3",
     tag: "Intermediate",
     description:
-      "The ability to understand Japanese used in everyday situations to a certain degree.",
+      "Understands Japanese used in everyday situations and can read materials on daily topics at near-natural speed.",
     points: [
-      "Intermediate Kanji (600)",
-      "Complex grammar",
-      "Natural conversations",
-      "Reading comprehension",
+      "Around 600 Kanji",
+      "About 3,000 words",
+      "Near-natural speed conversations",
+      "Reading daily topic materials",
     ],
     cert: "JLPT N3 Certificate",
   },
   {
     level: "N2",
-    tag: "Intermediate",
+    tag: "Upper Intermediate",
     description:
-      "The ability to understand Japanese used in everyday situations to a certain degree.",
+      "Understands complex texts like newspapers and can follow conversations at near-natural speed.",
     points: [
-      "Intermediate Kanji (600)",
-      "Complex grammar",
-      "Natural conversations",
-      "Reading comprehension",
+      "Advanced grammar",
+      "News & article reading",
+      "Near-natural conversations",
+      "Eligible for some jobs in Japan",
     ],
-    cert: "JLPT N3 Certificate",
+    cert: "JLPT N2 Certificate",
   },
   {
     level: "N1",
-    tag: "Intermediate",
+    tag: "Advanced",
     description:
-      "The ability to understand Japanese used in everyday situations to a certain degree.",
+      "Understands complex Japanese in a wide range of situations and is suitable for academic and technical work.",
     points: [
-      "Intermediate Kanji (600)",
-      "Complex grammar",
-      "Natural conversations",
-      "Reading comprehension",
+      "2000+ Kanji",
+      "10,000+ words",
+      "Natural-speed conversations",
+      "Academic & technical Japanese",
     ],
-    cert: "JLPT N3 Certificate",
+    cert: "JLPT N1 Certificate",
   },
 ];
 
+
 const JapaneseJLPT = () => {
   return (
-     <Watermark content={"ENGELL"}>
+    
       <div className="w-full bg-blue-300 py-20 px-4" id="japanese">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block mb-3 text-xs px-4 py-1 rounded-full bg-red-100 text-red-600 font-medium">
@@ -150,8 +153,7 @@ const JapaneseJLPT = () => {
           ))}
         </div>
       </div>
-     
-     </Watermark>
+  
   );
 };
 

@@ -1,20 +1,20 @@
 import React from "react";
 import { Briefcase, GraduationCap } from "lucide-react";
-import { Watermark } from "antd";
+
 
 const faculty = [
   {
-    name: "Dr. Aparna Sahasrabudhe",
-    role: "Director & Senior Faculty",
-    experience: "25+ years of teaching experience",
-    education:
-      "Ph.D. (SPPU), M.A. German (University of Pune), B.A. German, GDS Goethe-Institut, NET (UGC), Advanced Diploma in Japanese, JLPT N2",
-    note:
-      "Advanced teacher training in India & Germany. Paper presentations at national and international conferences.",
-    
-    image: "/photo(7).jpeg",
+  name: "Dr. Aparna Sahasrabudhe",
+  role: "Director & Senior Faculty",
+  experience: "25+ years of teaching experience",
+  education:
+    "Ph.D. (SPPU), M.A. German (University of Pune), B.A. German, GDS Goethe-Institut, NET (UGC), Advanced Diploma in Japanese, JLPT N2",
+  note:
+    "Advanced teacher training in India & Germany. Paper presentations at national and international conferences.",
+  image: "/photo(7).jpeg",
 
-  },
+
+},
   {
     name: "Ashwini Mahajan",
     role: "Faculty Member",
@@ -39,7 +39,7 @@ const faculty = [
 
 const Faculty = () => {
   return (
-     <Watermark  content={"ENGELL"}>
+    
       <div
         className="w-full bg-blue-300 py-20 px-4"
        
@@ -104,7 +104,7 @@ const Faculty = () => {
           ))}
         </div>
       </div>
-    </Watermark>
+ 
   );
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Star } from "lucide-react";
-import { Watermark } from "antd";
+
 
 const reviews = [
   {
@@ -55,7 +55,7 @@ const reviews = [
 
 const Testimonials = () => {
   return (
-     <Watermark content={"ENGELL"}>
+     
       <div id="testimonials" className="w-full bg-blue-300 py-20 px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto">
@@ -117,7 +117,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-    </Watermark>
+
   );
 };
 
