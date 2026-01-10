@@ -10,10 +10,11 @@ import VideoTestimonials from './component/VideoTestimonials';
 import GoalsSection from './component/GoalSections';
 import ContactSection from './component/ContactSection';
 import PhotoGallary from './component/PhotoGallary';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
-    <div className="bg-watermark h-full">
+    <div >
       <Navbar />
       <HeroSection />
       <AboutSection />
@@ -25,6 +26,7 @@ const App = () => {
       <PhotoGallary />
       <VideoTestimonials />
       <ContactSection />
+      <Footer />
     </div>
   )
 }
