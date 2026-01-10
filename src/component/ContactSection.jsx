@@ -13,7 +13,7 @@ const ContactSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
             {/* LEFT CONTENT */}
             <div>
-              <p className="text-orange-500 uppercase text-sm font-semibold">
+              <p className="text-[#D33A3D] uppercase text-sm font-semibold">
                 Get In Touch
               </p>
 
@@ -29,7 +29,7 @@ const ContactSection = () => {
               {/* Info Items */}
               <div className="mt-8 space-y-5">
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 text-orange-500">
+                  <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 text-[#D33A3D]">
                     <MapPin size={18} />
                   </div>
                   <div>
@@ -41,7 +41,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 text-orange-500">
+                  <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 text-[#D33A3D]">
                     <Phone size={18} />
                   </div>
                   <div>
@@ -51,7 +51,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 text-orange-500">
+                  <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 text-[#D33A3D]">
                     <Clock size={18} />
                   </div>
                   <div>
@@ -84,7 +84,7 @@ const ContactSection = () => {
                     <TiSocialFacebook />
                   </a>
                 </div>
-                <div className="w-10 h-10 rounded-full border border-pink-300 flex items-center justify-center text-pink-500">
+                <div className="w-10 h-10 rounded-full border border-pink-300 flex items-center justify-center text-[#D33A3D]">
                   <a
                     href="https://www.instagram.com"
                     target="_blank"
@@ -139,7 +139,7 @@ const ContactSection = () => {
 
                 <button
                   type="submit"
-                  className="w-full mt-4 py-3 rounded-md text-white font-semibold bg-gradient-to-r from-indigo-700 to-orange-500"
+                  className="w-full mt-4 py-3 rounded-md text-white font-semibold bg-gradient-to-r from-indigo-700 to-[#D33A3D]"
                 >
                   Submit Enquiry
                 </button>

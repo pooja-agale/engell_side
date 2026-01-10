@@ -118,7 +118,7 @@ const VideoCard = ({ item, isActive, onPlay }) => {
             className="absolute inset-0 flex items-center justify-center bg-black/20"
           >
             <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow">
-              <Play className="w-6 h-6 text-orange-500 ml-1" />
+              <Play className="w-6 h-6 text-[#D33A3D] ml-1" />
             </div>
           </button>
         )}

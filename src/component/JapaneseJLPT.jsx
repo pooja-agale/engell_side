@@ -76,11 +76,11 @@ const JapaneseJLPT = () => {
     
       <div className="w-full bg-blue-300 py-20 px-4" id="japanese">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block mb-3 text-xs px-4 py-1 rounded-full bg-red-100 text-red-600 font-medium">
+          <span className="inline-block mb-3 text-xs px-4 py-1 rounded-full bg-red-100 text-[#D33A3D] font-medium">
             日本語 · Nihongo
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold text-gray-900">
-            Japanese Language <span className="text-red-600">JLPT</span> Courses
+            Japanese Language <span className="text-[#D33A3D]">JLPT</span> Courses
           </h2>
           <p className="mt-4 text-sm sm:text-base text-gray-500 max-w-2xl mx-auto">
             Prepare for the Japanese Language Proficiency Test (JLPT) jointly
@@ -119,7 +119,7 @@ const JapaneseJLPT = () => {
             >
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <h3 className="text-xl font-semibold text-red-600">
+                  <h3 className="text-xl font-semibold text-[#D33A3D]">
                     {item.level}
                   </h3>
                   <span className="text-xs bg-gray-100 px-3 py-1 rounded-full text-gray-600">
@@ -134,7 +134,7 @@ const JapaneseJLPT = () => {
                       key={i}
                       className="flex items-start gap-2 text-sm text-gray-600"
                     >
-                      <CheckCircle className="w-4 h-4 text-red-500 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 text-[#D33A3D] mt-0.5" />
                       {point}
                     </li>
                   ))}

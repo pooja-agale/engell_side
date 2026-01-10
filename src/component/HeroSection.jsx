@@ -25,14 +25,14 @@ const HeroSection = () => {
         <div className="max-w-6xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white shadow-sm rounded-full px-4 py-1 text-xs text-gray-600 mb-6">
-            <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
+            <span className="w-2 h-2 bg-[#D33A3D] rounded-full"></span>
             Since 2003 · Trusted by 4234+ Students
           </div>
 
           {/* Heading */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-gray-900 leading-tight">
-            Master <span className="  text-red-600 ">German </span>&{" "}
-            <span className="text-red-600">Japanese</span>
+            Master <span className="  text-[#D33A3D] ">German </span>&{" "}
+            <span className="text-[#D33A3D]">Japanese</span>
           </h1>
 
           {/* Description */}
@@ -76,7 +76,7 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
             <div className="bg-white rounded-xl shadow-lg p-5 flex items-center gap-4">
-              <RiGraduationCapLine size={22} className="text-red-500" />
+              <RiGraduationCapLine size={22} className="text-[#D33A3D]" />
               <div className="text-left">
                 <h3 className="text-lg font-semibold text-gray-800">20+</h3>
                 <p className="text-sm text-gray-500">Years Experience</p>
@@ -84,7 +84,7 @@ const HeroSection = () => {
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-5 flex items-center gap-4">
-              <LuUsers size={22} className="text-red-500" />
+              <LuUsers size={22} className="text-[#D33A3D]" />
               <div className="text-left">
                 <h3 className="text-lg font-semibold text-gray-800">4234+</h3>
                 <p className="text-sm text-gray-500">Students Trained</p>
@@ -92,7 +92,7 @@ const HeroSection = () => {
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-5 flex items-center gap-4">
-              <LuEarth size={22} className="text-red-500" />
+              <LuEarth size={22} className="text-[#D33A3D]" />
               <div className="text-left">
                 <h3 className="text-lg font-semibold text-gray-800">2</h3>
                 <p className="text-sm text-gray-500">Languages Offered</p>

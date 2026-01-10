@@ -52,7 +52,7 @@ const GoalsSection = () => {
    
       <div className="bg-blue-300 py-16 px-4" id="goals">
         <div className="max-w-7xl mx-auto text-center">
-          <p className="text-orange-500 uppercase text-sm font-semibold">
+          <p className="text-[#D33A3D] uppercase text-sm font-semibold">
             Who Should Learn
           </p>
 
@@ -72,7 +72,7 @@ const GoalsSection = () => {
                 key={index}
                 className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition"
               >
-                <div className="w-12 h-12 mx-auto flex items-center justify-center rounded-lg bg-gradient-to-br from-indigo-600 to-orange-500 text-white mb-4">
+                <div className="w-12 h-12 mx-auto flex items-center justify-center rounded-lg bg-gradient-to-br from-indigo-600 to-[#D33A3D] text-white mb-4">
                   {item.icon}
                 </div>
 
@@ -84,7 +84,7 @@ const GoalsSection = () => {
 
           {/* CTA Box */}
           <div className="mt-14">
-            <div className="bg-gradient-to-r from-indigo-700 to-orange-500 text-white rounded-xl py-8 px-6 max-w-4xl mx-auto">
+            <div className="bg-gradient-to-r from-indigo-700 to-[#D33A3D] text-white rounded-xl py-8 px-6 max-w-4xl mx-auto">
               <h3 className="text-xl md:text-2xl font-semibold">
                 Added Qualification for Better Opportunities
               </h3>

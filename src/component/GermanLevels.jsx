@@ -105,7 +105,7 @@ const GermanLevels = () => {
                       key={i}
                       className="flex items-start gap-2 text-sm text-gray-600"
                     >
-                      <CheckCircle className="w-4 h-4 text-orange-500 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 text-[#D33A3D] mt-0.5" />
                       {point}
                     </li>
                   ))}
@@ -113,7 +113,7 @@ const GermanLevels = () => {
               </div>
 
               <div className="mt-6 bg-[#f7f6f2] rounded-xl px-4 py-3 flex items-center gap-2">
-                <PiMedalThin className="text-yellow-500" size={23} />
+                <PiMedalThin className="text-[#D33A3D]" size={23} />
                 <div>
                   <p className="text-xs text-gray-500">International Exam</p>
                   <p className="text-sm font-semibold text-gray-800">

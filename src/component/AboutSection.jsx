@@ -11,13 +11,13 @@ const AboutSection = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Content */}
           <div>
-            <span className="text-xs font-semibold tracking-widest text-orange-500 uppercase">
+            <span className="text-xs font-semibold tracking-widest text-[#D33A3D] uppercase">
               About Us
             </span>
 
             <h2 className="mt-3 text-3xl sm:text-5xl font-serif font-semibold text-[#1f3a5f] leading-tight">
               Your Gateway to <br />{" "}
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-[#1f3a5f]   to-red-500 text-transparent bg-clip-text">
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-[#1f3a5f]   to-[#D33A3D] text-transparent bg-clip-text">
                 Global Communication
               </h2>
             </h2>
@@ -39,7 +39,7 @@ const AboutSection = () => {
           {/* Right Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-white rounded-2xl shadow-lg p-6">
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-red-500 text-white mb-4">
+              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-[#D33A3D] text-white mb-4">
                 <FaUserGraduate size={20} />
               </div>
               <h3 className="font-semibold text-gray-800">Expert Faculty</h3>
@@ -49,7 +49,7 @@ const AboutSection = () => {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6">
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-red-500 text-white mb-4">
+              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-[#D33A3D] text-white mb-4">
                 <MdOutlineSchool size={20} />
               </div>
               <h3 className="font-semibold text-gray-800">
@@ -61,7 +61,7 @@ const AboutSection = () => {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6">
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-red-500 text-white mb-4">
+              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-[#D33A3D] text-white mb-4">
                 <HiOutlineBadgeCheck size={20} />
               </div>
               <h3 className="font-semibold text-gray-800">Certified Courses</h3>
@@ -71,7 +71,7 @@ const AboutSection = () => {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6">
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-red-500 text-white mb-4">
+              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-b from-[#1f3a5f] to-[#D33A3D] text-white mb-4">
                 <FaBookOpen size={20} />
               </div>
               <h3 className="font-semibold text-gray-800">

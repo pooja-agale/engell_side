@@ -79,19 +79,19 @@ const Faculty = () => {
               {/* Content */}
               <div className="p-6">
                 <h3 className="font-semibold text-gray-900">{item.name}</h3>
-                <p className="text-sm text-orange-500 font-medium mb-4">
+                <p className="text-sm text-[#D33A3D] font-medium mb-4">
                   {item.role}
                 </p>
 
                 <div className="space-y-3 text-sm text-gray-600">
                   <div className="flex items-start gap-2">
-                    <Briefcase className="w-4 h-4 text-orange-500 mt-0.5" />
+                    <Briefcase className="w-4 h-4 text-[#D33A3D] mt-0.5" />
                     <span>
                       <strong>Experience</strong> — {item.experience}
                     </span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <GraduationCap className="w-4 h-4 text-orange-500 mt-0.5" />
+                    <GraduationCap className="w-4 h-4 text-[#D33A3D] mt-0.5" />
                     <span>
                       <strong>Education</strong> — {item.education}
                     </span>
