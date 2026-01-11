@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Left Logo Section */}
           <div className="flex items-center gap-3">
             <div className="bg-white p-2 rounded">
-              <img src="/logo.png" alt="ENGELL Logo" className="h-6 w-20"/>
+             <img src="/Logo.jpeg" alt="ENGELL" className="h-8 w-auto" />
             </div>
             <div className="text-sm">
               <p className="font-semibold">ENGELL</p>

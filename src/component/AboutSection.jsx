@@ -17,7 +17,7 @@ const AboutSection = () => {
 
             <h2 className="mt-3 text-3xl sm:text-5xl font-serif font-semibold text-[#1f3a5f] leading-tight">
               Your Gateway to <br />{" "}
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-[#1f3a5f]   to-[#D33A3D] text-transparent bg-clip-text">
+              <h2 className="md:text-5xl font-bold bg-gradient-to-r from-[#1f3a5f]   to-[#D33A3D] text-transparent bg-clip-text">
                 Global Communication
               </h2>
             </h2>
