@@ -49,7 +49,7 @@ const goals = [
 
 const GoalsSection = () => {
   return (
-    <Watermark content={"ENGELL"}>
+    <Watermark content={"ENGELL"} gap={[300, 300]}>
     <div className="bg-blue-300 py-16 px-4" id="goals">
       <div className="max-w-7xl mx-auto text-center">
         <p className="text-[#D33A3D] uppercase text-md font-bold">

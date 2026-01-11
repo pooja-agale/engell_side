@@ -73,7 +73,7 @@ const levels = [
 
 const JapaneseJLPT = () => {
   return (
-    <Watermark content={"ENGELL"}>
+    <Watermark content={"ENGELL"} gap={[300, 300]}>
       <div className="w-full bg-blue-300 py-20 px-4" id="japanese">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block mb-3 text-xs px-4 py-1 rounded-full text-[#9c2b2c] bg-white font-medium">

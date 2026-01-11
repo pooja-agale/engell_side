@@ -36,7 +36,7 @@ const faculty = [
 
 const Faculty = () => {
   return (
-    <Watermark content={"ENGELL"}>
+    <Watermark content={"ENGELL"} gap={[300, 300]}>
       <div
         className="w-full bg-blue-300 py-20 px-4"
        

@@ -41,7 +41,7 @@ const VideoTestimonials = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <Watermark content={"ENGELL"}>
+    <Watermark content={"ENGELL"} gap={[300, 300]}>
       <div className="w-full bg-blue-300 py-20" id="videos">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 px-4">

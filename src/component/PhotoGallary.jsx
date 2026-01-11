@@ -34,7 +34,7 @@ const PhotoGallary = () => {
   }, []);
 
   return (
-     <Watermark content={"ENGELL"}>
+     <Watermark content={"ENGELL"} gap={[300, 300]}>
       <div className="w-full py-10 bg-blue-300 " id="gallery">
         <p className="text-center  text-2xl md:text-4xl font-semibold mb-12">
           Photo Gallery
