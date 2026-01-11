@@ -1,6 +1,6 @@
 import React from "react";
 import { Briefcase, GraduationCap } from "lucide-react";
-
+import { Watermark } from "antd";
 
 const faculty = [
   {
@@ -36,7 +36,7 @@ const faculty = [
 
 const Faculty = () => {
   return (
-    
+    <Watermark content={"ENGELL"}>
       <div
         className="w-full bg-blue-300 py-20 px-4"
        
@@ -101,7 +101,7 @@ const Faculty = () => {
           ))}
         </div>
       </div>
- 
+ </Watermark>
   );
 };
 

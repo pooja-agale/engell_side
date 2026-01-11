@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Play } from "lucide-react";
-
+import { Watermark } from "antd";
 
 const videos = [
   {
@@ -41,7 +41,7 @@ const VideoTestimonials = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    
+    <Watermark content={"ENGELL"}>
       <div className="w-full bg-blue-300 py-20" id="videos">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 px-4">
@@ -74,7 +74,7 @@ const VideoTestimonials = () => {
           </div>
         </div>
       </div>
-  
+  </Watermark>
   );
 };
 

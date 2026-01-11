@@ -7,6 +7,7 @@ import {
   Languages,
   Globe,
 } from "lucide-react";
+import { Watermark } from "antd";
 
 const goals = [
   {
@@ -48,6 +49,7 @@ const goals = [
 
 const GoalsSection = () => {
   return (
+    <Watermark content={"ENGELL"}>
     <div className="bg-blue-300 py-16 px-4" id="goals">
       <div className="max-w-7xl mx-auto text-center">
         <p className="text-[#D33A3D] uppercase text-md font-bold">
@@ -95,6 +97,7 @@ const GoalsSection = () => {
         </div>
       </div>
     </div>
+    </Watermark>
   );
 };
 

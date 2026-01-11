@@ -3,17 +3,15 @@ import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 import { LuEarth } from "react-icons/lu";
 import { LuUsers } from "react-icons/lu";
 import { RiGraduationCapLine } from "react-icons/ri";
-
+import { Watermark } from "antd";
 
 const HeroSection = () => {
   return (
-    
+    <Watermark content={"ENGELL"}>
       <div
         id="hero"
         className="relative min-h-screen w-full bg-blue-300 overflow-hidden flex items-center justify-center px-4"
       >
-        
-
         <div className="max-w-6xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white shadow-sm rounded-full px-4 py-1 text-xs text-gray-600 mb-6">
@@ -93,7 +91,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-   
+    </Watermark>
   );
 };
 
