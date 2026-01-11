@@ -7,7 +7,7 @@ const reviews = [
     name: "Nikhil Ekbote",
     role: "Application Engineer",
     company: "NMB Minebea GmbH, Darmstadt",
-    time: "2 months ago",
+   
     review:
       "I studied German up to the B1 level at Engell Institute. The teachers encourage students to actively speak and participate, which helped me improve my confidence and pronunciation. This helped me during internship and job interviews.",
   },
@@ -15,7 +15,7 @@ const reviews = [
     name: "Rutuja Deshpande",
     role: "Service Experience Manager (Japanese Support)",
     company: "Teradata",
-    time: "1 month ago",
+    
     review:
       "My journey with Engel Institute played an important role in shaping my professional path. Learning both Japanese and German here gave me confidence and clarity. I am grateful to Ashwini ma’am and Aparna ma’am for their support.",
   },
@@ -23,7 +23,7 @@ const reviews = [
     name: "Anshul Bhole",
     role: "Quality Planner",
     company: "BMW AG, München",
-    time: "3 weeks ago",
+ 
     review:
       "I completed my B1 German at Engell Institute before going to Germany. The certificate was accepted by universities, and I also passed the Goethe B1 exam after finishing this course.",
   },
@@ -31,7 +31,7 @@ const reviews = [
     name: "Shreya Kulkarni",
     role: "German Learner",
     company: "Engell Institute",
-    time: "1 month ago",
+  
     review:
       "Engel Institut has excellent teachers and a very positive learning environment. The classes are structured and motivating, which helped me gain confidence in German.",
   },
@@ -39,7 +39,7 @@ const reviews = [
     name: "Prachi Bhong",
     role: "German Student (B2.2)",
     company: "Engell Institute",
-    time: "2 weeks ago",
+    
     review:
       "The institute encourages group activities and structured exams which helped improve my confidence and communication skills. They also guide very well for Goethe exam preparation.",
   },
@@ -47,7 +47,7 @@ const reviews = [
     name: "Prasad Kharadkar",
     role: "BMW Supplier Quality Specialist",
     company: "NOMEA GmbH, Munich",
-    time: "1 month ago",
+    
     review:
       "I started learning German in 2013 at Engel Institute. Aparna Ma’am’s dedication kept me motivated for years. I completed B1 in Sambhajinagar and later passed B2 in Germany.",
   },
@@ -71,7 +71,7 @@ const Testimonials = () => {
               />
             ))}
             <span className="text-sm text-gray-600">
-              <strong>5.0</strong> · 100+ Reviews
+              <strong>4.5</strong> · 100+ Reviews
             </span>
           </div>
         </div>

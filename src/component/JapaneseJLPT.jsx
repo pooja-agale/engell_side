@@ -44,7 +44,7 @@ const levels = [
   },
   {
     level: "N2",
-    tag: "Upper Intermediate",
+    tag: "Advanced",
     description:
       "Understands complex texts like newspapers and can follow conversations at near-natural speed.",
     points: [
@@ -80,12 +80,11 @@ const JapaneseJLPT = () => {
             日本語 · Nihongo
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold text-gray-900">
-            Japanese Language <span className="text-[#D33A3D]">JLPT</span> Courses
+            Japanese Language  Courses
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-gray-500 max-w-2xl mx-auto">
-            Prepare for the Japanese Language Proficiency Test (JLPT) jointly
-            conducted by the Association of International Education Japan and
-            the Japan Foundation, Tokyo.
+          <p className="mt-4 text-sm sm:text-base text-gray-600 max-w-2xl mx-auto">
+            Prepare for the Japanese Language Proficiency Test (JLPT) jointly conducted by the Association of International Education Japan and the Japan Foundation, 
+            <span className="font-bold">Tokyo</span>
           </p>
         </div>
 

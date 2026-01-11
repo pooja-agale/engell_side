@@ -27,12 +27,7 @@ const videos = [
     tag: "German Language",
     video: "/Video(4).mp4",
   },
-  {
-    title: "German language skills: a career advantage",
-    name: "Sarthak Nene",
-    tag: "German Language",
-    video: "/Video(5).mp4",
-  },
+ 
   {
     title: "Language skills: real results",
     name: "Ambarish Kulkarni",

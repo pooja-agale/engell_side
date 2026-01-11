@@ -128,8 +128,8 @@ const GermanLevels = () => {
        
         <div className="mt-12 text-center">
           
-          <p className="text-md text-gray-600 mt-1">
-            preparation for international examination in German and Japanese 
+          <p className="text-md text-gray-600 mt-1 font-bold">
+            preparation for international examination in German conducted by Goethe-Institute , Max Mueller Bhavan
           </p>
         </div>
 

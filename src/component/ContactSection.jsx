@@ -13,7 +13,7 @@ const ContactSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
             {/* LEFT CONTENT */}
             <div>
-              <p className="text-[#D33A3D] uppercase text-sm font-semibold">
+              <p className="text-[#D33A3D]  text-md font-bold uppercase text-sm ">
                 Get In Touch
               </p>
 
@@ -21,7 +21,7 @@ const ContactSection = () => {
                 Start Your Language <br /> Journey Today
               </h2>
 
-              <p className="text-gray-500 mt-4 max-w-md">
+              <p className="text-gray-800 mt-4 max-w-md font-bold">
                 Visit our institute or give us a call to learn more about our
                 courses and enroll in the next batch.
               </p>

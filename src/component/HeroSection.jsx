@@ -12,15 +12,7 @@ const HeroSection = () => {
         id="hero"
         className="relative min-h-screen w-full bg-blue-300 overflow-hidden flex items-center justify-center px-4"
       >
-        {/* Background Circles */}
-        {/* Background subtle text/icons */}
-        <span className="absolute right-10 top-1/3 text-6xl text-gray-200 hidden lg:block animate-floatSlow">
-          学
-        </span>
-
-        <span className="absolute right-20 bottom-24 text-4xl text-gray-200 hidden lg:block animate-floatFast">
-          ドイツ
-        </span>
+        
 
         <div className="max-w-6xl mx-auto text-center">
           {/* Badge */}
