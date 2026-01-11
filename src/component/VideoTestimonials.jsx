@@ -45,7 +45,7 @@ const VideoTestimonials = () => {
       <div className="w-full bg-blue-300 py-20" id="videos">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 px-4">
-          <span className="inline-flex text-xs bg-orange-100 text-orange-600 px-4 py-1 rounded-full mb-4">
+          <span className="inline-flex text-xs bg-white text-[#9c2b2c] font-bold px-4 py-1 rounded-full mb-4">
             Video Testimonials
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold">

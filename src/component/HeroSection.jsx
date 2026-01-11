@@ -23,8 +23,8 @@ const HeroSection = () => {
 
           {/* Heading */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-gray-900 leading-tight">
-            Master <span className="  text-[#D33A3D] ">German </span>&{" "}
-            <span className="text-[#D33A3D]">Japanese</span>
+            Master <span className="  text-[#9c2b2c] ">German </span>&{" "}
+            <span className="text-[#9c2b2c]">Japanese</span>
           </h1>
 
           {/* Description */}
