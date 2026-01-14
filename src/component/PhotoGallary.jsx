@@ -6,8 +6,6 @@ const photos = [
   "/photo(2).jpeg",
   "/photo(3).jpeg",
   "/photo(4).jpeg",
-  "/photo(5).jpeg",
-
   "/photo(10).jpeg",
   "/photo(11).jpeg",
 ];
