@@ -36,29 +36,29 @@ const HeroSection = () => {
           <div className="flex justify-center gap-4 mt-6">
             <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-green-600 border shadow-md">
               <a
-                href="https://www.whatsapp.com"
+                href="https://wa.me/919049991851"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaWhatsapp size={22}/>
+                <FaWhatsapp size={22} />
               </a>
             </div>
             <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-blue-600 border shadow-md">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/profile.php?id=100070899367194"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook size={22}/>
+                <FaFacebook size={22} />
               </a>
             </div>
             <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-pink-500 border shadow-md">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/engellinstitute?igsh=aGI2YWtraWJlcTRp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram size={22}/>
+                <FaInstagram size={22} />
               </a>
             </div>
           </div>

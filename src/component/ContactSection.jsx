@@ -7,7 +7,7 @@ import { Watermark } from "antd";
 
 const ContactSection = () => {
   return (
-      <Watermark content={"ENGELL"} gap={[300, 300]}>
+    <Watermark content={"ENGELL"} gap={[300, 300]}>
       <div className="bg-blue-300 py-16 px-4" id="contact">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -35,7 +35,8 @@ const ContactSection = () => {
                   <div>
                     <p className="font-semibold">Address</p>
                     <p className="text-sm text-gray-500">
-                      Plot no. 7, Raj Nagar, Station Road, opp. Goldie Cinema, Chhatrapati Sambhajinagar 431005
+                      Plot no. 7, Raj Nagar, Station Road, opp. Goldie Cinema,
+                      Chhatrapati Sambhajinagar 431005
                     </p>
                   </div>
                 </div>
@@ -68,29 +69,29 @@ const ContactSection = () => {
               <div className="flex gap-4 mt-8">
                 <div className="w-12 h-12 rounded-full border border-green-600 flex items-center justify-center text-green-500">
                   <a
-                    href="https://www.whatsapp.com"
+                    href="https://wa.me/919049991851"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp size={23}/>
+                    <FaWhatsapp size={22} />
                   </a>
                 </div>
                 <div className="w-12 h-12 rounded-full border border-blue-600 flex items-center justify-center text-blue-600">
                   <a
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/profile.php?id=100070899367194"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <TiSocialFacebook size={23}/>
+                    <TiSocialFacebook size={23} />
                   </a>
                 </div>
                 <div className="w-12  h-12 rounded-full border border-pink-500 flex items-center justify-center text-[#D33A3D]">
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/engellinstitute?igsh=aGI2YWtraWJlcTRp"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={23}/>
+                    <FaInstagram size={23} />
                   </a>
                 </div>
               </div>
@@ -110,7 +111,6 @@ const ContactSection = () => {
                   />
                 </div>
 
-
                 <div>
                   <label className="text-sm font-medium">Email</label>
                   <input
@@ -119,7 +119,6 @@ const ContactSection = () => {
                     className="w-full mt-1 border rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   />
                 </div>
-
 
                 <div>
                   <label className="text-sm font-medium">Phone Number</label>
@@ -169,7 +168,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-  </Watermark>
+    </Watermark>
   );
 };
 
