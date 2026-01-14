@@ -66,31 +66,31 @@ const ContactSection = () => {
 
               {/* Social Icons */}
               <div className="flex gap-4 mt-8">
-                <div className="w-10 h-10 rounded-full border border-green-300 flex items-center justify-center text-green-500">
+                <div className="w-12 h-12 rounded-full border border-green-600 flex items-center justify-center text-green-500">
                   <a
                     href="https://www.whatsapp.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp />
+                    <FaWhatsapp size={23}/>
                   </a>
                 </div>
-                <div className="w-10 h-10 rounded-full border border-blue-300 flex items-center justify-center text-blue-600">
+                <div className="w-12 h-12 rounded-full border border-blue-600 flex items-center justify-center text-blue-600">
                   <a
                     href="https://www.facebook.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <TiSocialFacebook />
+                    <TiSocialFacebook size={23}/>
                   </a>
                 </div>
-                <div className="w-10 h-10 rounded-full border border-pink-300 flex items-center justify-center text-[#D33A3D]">
+                <div className="w-12  h-12 rounded-full border border-pink-500 flex items-center justify-center text-[#D33A3D]">
                   <a
                     href="https://www.instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram />
+                    <FaInstagram size={23}/>
                   </a>
                 </div>
               </div>
@@ -109,6 +109,17 @@ const ContactSection = () => {
                     className="w-full mt-1 border rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
                   />
                 </div>
+
+
+                <div>
+                  <label className="text-sm font-medium">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="w-full mt-1 border rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                  />
+                </div>
+
 
                 <div>
                   <label className="text-sm font-medium">Phone Number</label>

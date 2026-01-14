@@ -34,31 +34,31 @@ const HeroSection = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center gap-4 mt-6">
-            <div className="w-9 h-9 flex items-center justify-center rounded-full bg-white text-green-600 border shadow-md">
+            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-green-600 border shadow-md">
               <a
                 href="https://www.whatsapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaWhatsapp />
+                <FaWhatsapp size={22}/>
               </a>
             </div>
-            <div className="w-9 h-9 flex items-center justify-center rounded-full bg-white text-blue-600 border shadow-md">
+            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-blue-600 border shadow-md">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook />
+                <FaFacebook size={22}/>
               </a>
             </div>
-            <div className="w-9 h-9 flex items-center justify-center rounded-full bg-white text-pink-500 border shadow-md">
+            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-pink-500 border shadow-md">
               <a
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram />
+                <FaInstagram size={22}/>
               </a>
             </div>
           </div>

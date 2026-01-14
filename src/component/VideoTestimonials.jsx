@@ -30,7 +30,7 @@ const videos = [
  
   {
     title: "Language skills: real results",
-    name: "Ambarish Kulkarni",
+    name: "Ambrish Kulkarni",
     tag: "German Language",
     video: "/Video(6).mp4",
   },
