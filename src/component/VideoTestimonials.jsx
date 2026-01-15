@@ -34,6 +34,13 @@ const videos = [
     tag: "German Language",
     video: "/video(9).mp4",
   },
+  {
+    title: "German language skills: a career advantage",
+    name: "Sarthak  Nene",
+    tag: "German Language",
+    video: "/Video(6).mp4",
+  },
+
 ];
 
 
