@@ -76,7 +76,7 @@ const JapaneseJLPT = () => {
     <Watermark content={"ENGELL"} gap={[300, 300]}>
       <div className="w-full bg-blue-300 py-20 px-4" id="japanese">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block mb-3 text-xs px-4 py-1 rounded-full text-[#9c2b2c] bg-white font-medium">
+          <span className="inline-block mb-3 text-md px-4 py-1 rounded-full text-[#9c2b2c] bg-white font-medium">
             日本語 · Nihongo
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold text-gray-900">

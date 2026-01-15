@@ -32,7 +32,7 @@ const videos = [
     title: "Language skills: real results",
     name: "Ambrish Kulkarni",
     tag: "German Language",
-    video: "/Video(6).mp4",
+    video: "/video(9).mp4",
   },
 ];
 
@@ -45,7 +45,7 @@ const VideoTestimonials = () => {
       <div className="w-full bg-blue-300 py-20" id="videos">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 px-4">
-          <span className="inline-flex text-xs bg-white text-[#9c2b2c] font-bold px-4 py-1 rounded-full mb-4">
+          <span className="inline-flex text-md bg-white text-[#9c2b2c] font-bold px-4 py-1 rounded-full mb-4">
             Video Testimonials
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold">
@@ -62,7 +62,7 @@ const VideoTestimonials = () => {
             {videos.map((item, index) => (
               <div
                 key={index}
-                className="min-w-[280px] sm:min-w-[360px] md:min-w-[420px] snap-start"
+                className="min-w-[280px] sm:min-w-[360px] md:min-w-[430px] snap-start"
               >
                 <VideoCard
                   item={item}

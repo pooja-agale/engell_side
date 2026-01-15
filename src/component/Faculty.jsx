@@ -44,7 +44,7 @@ const Faculty = () => {
       >
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-[#D33A3D] uppercase text-md font-bold inline-flex items-center gap-2 text-xs bg-white px-4 py-1 rounded-full shadow-sm mb-4">
+          <span className="text-[#D33A3D] uppercase text-md font-bold inline-flex items-center gap-2  bg-white px-4 py-1 rounded-full shadow-sm mb-4">
             Our Faculty
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold text-gray-900">

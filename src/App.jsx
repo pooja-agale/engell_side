@@ -1,4 +1,7 @@
 import React from 'react';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import Navbar from './component/Navbar';
 import HeroSection from './component/HeroSection';
 import AboutSection from './component/AboutSection';
@@ -14,7 +17,14 @@ import Footer from './component/Footer';
 
 const App = () => {
   return (
-    <div >
+    <div>
+      
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        theme="colored"
+      />
+
       <Navbar />
       <HeroSection />
       <AboutSection />
@@ -31,4 +41,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

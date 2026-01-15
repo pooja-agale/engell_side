@@ -14,13 +14,13 @@ const HeroSection = () => {
       >
         <div className="max-w-6xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white shadow-sm rounded-full px-4 py-1 text-xs text-gray-600 mb-6">
+          <div className="inline-flex items-center gap-2 bg-white shadow-sm rounded-full px-4 py-1 text-md text-gray-600 mb-6">
             <span className="w-2 h-2 bg-[#D33A3D] rounded-full"></span>
             Since 2003 · Trusted by 4234+ Students
           </div>
 
           {/* Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-gray-900 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl  font-serif font-semibold text-gray-900 leading-tight">
             Master <span className="  text-[#9c2b2c] ">German </span>&{" "}
             <span className="text-[#9c2b2c]">Japanese</span>
           </h1>
